@@ -1,0 +1,32 @@
+[debug] [2018-07-27T12:24:10.158Z] ----------------------------------------------------------------------
+[debug] [2018-07-27T12:24:10.162Z] Command:       /home/jyuvaraj03/.nvm/versions/node/v10.7.0/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-07-27T12:24:10.162Z] CLI Version:   4.0.0
+[debug] [2018-07-27T12:24:10.162Z] Platform:      linux
+[debug] [2018-07-27T12:24:10.163Z] Node Version:  v10.7.0
+[debug] [2018-07-27T12:24:10.163Z] Time:          Fri Jul 27 2018 17:54:10 GMT+0530 (India Standard Time)
+[debug] [2018-07-27T12:24:10.163Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-27T12:24:10.174Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-27T12:24:10.174Z] > authorizing via signed-in user
+[debug] [2018-07-27T12:24:10.177Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/parksmart-7e9ef  
+  
+ Fri Jul 27 2018 17:54:10 GMT+0530 (India Standard Time)
+[debug] [2018-07-27T12:24:12.217Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-27T12:24:12.221Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/parksmart-7e9ef/tokens  
+  
+ Fri Jul 27 2018 17:54:12 GMT+0530 (India Standard Time)
+[debug] [2018-07-27T12:24:13.804Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-27T12:24:13.806Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/parksmart-7e9ef  
+  
+ Fri Jul 27 2018 17:54:13 GMT+0530 (India Standard Time)
+[debug] [2018-07-27T12:24:15.725Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/jyuvaraj03'...
+[info] 
+[debug] [2018-07-27T12:24:15.731Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Fri Jul 27 2018 17:54:15 GMT+0530 (India Standard Time)
+[debug] [2018-07-27T12:24:16.908Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ParkFIre
+[info] ✔  hosting: Local server: http://localhost:5000
+

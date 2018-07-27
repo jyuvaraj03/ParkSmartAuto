@@ -1,0 +1,121 @@
+/* ==== GENERAL ==== */
+
+body {
+	margin-top: 50px;
+	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+	background: url('../img/tile.jpg') top left repeat;
+	padding-top: 25px
+}
+
+/* ==== GLOBAL ==== */
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h1,h2 {
+	margin: 0 0 40px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p.lead {
+	font-weight: normal;
+}
+
+p {
+	margin: 0 0 15px;
+}
+
+a:link, a:visited {
+	color: #dd5638;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #c9302c;
+}
+
+blockquote {
+	padding: 0;
+	border: none;
+	font-style: italic;
+	text-align: left;
+}
+
+blockquote cite {
+	display: block;
+	color: #777;
+	margin: 15px 0 0 0;
+}
+
+blockquote:before {
+	display: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: white;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-success {
+	background: #79b044;
+	border: none;
+}
+
+.btn-success:hover {
+	background: #6a9b3d;
+	border-color: #6a9b3d;
+}
+
+.btn-danger {
+	background-color: #dd5638;
+	border-color: #d95131;
+}
+
+.text-danger, li.text-danger a {
+	color: #dd5638;
+}
+
+a.text-danger:hover {
+	color: #e55939;
+}
+
+/* FIRST SECTION */
+
+/* QRCODE */
+#qrcode {
+  margin: auto;
+  width:160px;
+  height:160px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-55%, -55%);
+}
