@@ -21,28 +21,29 @@
 <body>    
     
     <!-- This is where you'll be rendering the QR code -->
-    <div id="qrcode"></div>
+    <input type="text" id="rfid-info">
+    <button id="submit">Submit</button>
+    <div id="qrcode" class="container"></div>
 
-     <!-- Bootstrap core JavaScript   -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="assets/js/jquery-2.1.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/gla7wnd.js"></script>
-
-    <!-- qrcode library -->
-    <script src="assets/js/qrcode.min.js"></script>
-
-    <!-- Import and configure the Firebase SDK -->
-    <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
-    <!-- If you do not want to serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
-    <script src="/__/firebase/5.1.0/firebase-app.js"></script>
-    <script src="/__/firebase/5.1.0/firebase-auth.js"></script>
-    <script src="/__/firebase/5.1.0/firebase-database.js"></script>
-    <script src="/__/firebase/5.1.0/firebase-storage.js"></script>
-    <script src="/__/firebase/5.1.0/firebase-messaging.js"></script>
-    <script src="/__/firebase/init.js"></script>
-
-    <script src="assets/js/main.js"></script>
-
+    <!--  Bootstrap core JavaScript -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="assets/js/jquery-2.1.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/gla7wnd.js"></script>
+    
+    <!--     qrcode library -->
+        <script src="assets/js/qrcode.min.js"></script>
+        
+        <!-- Import and configure the Firebase SDK
+        These scripts are made available when the app is served or deployed on Firebase Hosting
+        If you do not want to serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+        <script src="/__/firebase/5.1.0/firebase-app.js"></script>
+        <script src="/__/firebase/5.1.0/firebase-auth.js"></script>
+        <script src="/__/firebase/5.1.0/firebase-database.js"></script>
+        <script src="/__/firebase/5.1.0/firebase-storage.js"></script>
+        <script src="/__/firebase/5.1.0/firebase-messaging.js"></script>
+        <script src="/__/firebase/init.js"></script>
+        
+     <script src="assets/js/main.js"></script>
 </body>
 </html>
